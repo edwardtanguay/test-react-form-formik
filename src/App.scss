@@ -6,4 +6,25 @@ body {
 	h1 {
 		color: rgb(226, 226, 151);
 	}
+
+	form {
+		.row {
+			margin: 0 0 0.5rem 0;
+			input {
+				display: block;
+			}
+			::placeholder {
+				color: #888;
+			}
+			div.info {
+				font-size: 0.6rem;
+				color: rgb(238, 153, 153);
+			}
+		}
+	}
+	.formData {
+		background: #444;
+		padding: 1px 10px;
+		margin: 20px 0 0 0;
+	}
 }
